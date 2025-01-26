@@ -19,7 +19,7 @@ print(13 + 12 , 10-5 , 2*11 , 4/2)     # By using print cmd we can also do addit
 
 
 print('------------------------------------------------------------------------------------------------------')
-print('')
+print('abc')
 #*************  VARIABLES **************#
 
 #  In python variable are locations that are assigned inside the memory of the computer.
