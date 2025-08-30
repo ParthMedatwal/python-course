@@ -4,7 +4,7 @@
 #*************** DICTIONARY IN PYTHON *****************#
 # dictionaries are a word-meaning pair of information
 # In python we call these words as "key" & meanings as "values"
-# when we start our searching in pyhton we usually call these "key" to get the "value" stored in it.
+# when we start our searching in python we usually call these "key" to get the "value" stored in it.
 # Denoted as :  dict["Key"] = "value"
 # Example:
 
@@ -23,10 +23,10 @@ print("-------------------------------------------------------------------------
 
 #*************** PROPERTIES OF DICTIONARY *****************#
 # Dictionaries are unordered, Mutable(changeable) & don't allow duplicating keys
-# To call a value stored in a key we can use : dict["name"] = this will give us the vlaue stored in the Key
-# To change the value stroed in the key we can use: info["name"] = "Yash"
-# If we try to make a duplicate key inside a single dictionary then the old value sotred in the name will get overwrite by the new value that is stored in the duplicate key with the same name.
-# We can also create null ditionaries and then can add values to it later.
+# To call a value stored in a key we can use : dict["name"] = this will give us the value stored in the Key
+# To change the value stored in the key we can use: info["name"] = "Yash"
+# If we try to make a duplicate key inside a single dictionary then the old value stored in the name will get overwrite by the new value that is stored in the duplicate key with the same name.
+# We can also create null dictionaries and then can add values to it later.
 
 print()
 print("-------------------------------------------------------------------------------------------------------------------")
@@ -82,7 +82,7 @@ print("-------------------------------------------------------------------------
 
 # 4. myDict.get("key name"):
     # This gives us the value of the key recalled inside the function.
-    # this will give "NONE" us the o/p if there is no value or key that exist in the dictionary.
+    # this will give "NONE" as the o/p if there is no value or key that exist in the dictionary.
     # Example:  
 
 print(student.get("subjects"))   # o/p : {'Maths': 98, 'Physics': 98, 'Chemistry': 98}
@@ -102,7 +102,7 @@ print()
 print("-------------------------------------------------------------------------------------------------------------------")
 
 #*************** SET IN PYTHON *****************#
-# Set is the collecion of the unordered items.
+# Set is the collection of the unordered items.
 # Each set is mutable but element in the set must be unique & they are immutable.
 # Things that can be stored inside set are: boolean , int , float , str , tuple etc.
 # Things that cannot be stored inside a set are: list , Dictionaries.

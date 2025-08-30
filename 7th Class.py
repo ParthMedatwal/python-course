@@ -164,7 +164,7 @@ with open("practice.txt","r") as f:
 
 print("-------------------------------------------------------------------------------------------------------------")
 
-# Question 4: Height function to find in which of the file does the word using occur first. Print one if word not found
+# Question 4: WAP to find in which of the file does the word using occur first. Print one if word not found
 
 def check_for_line():
     word = "using"

@@ -170,11 +170,11 @@ name.append(c)
 print(name)
 
 print('--------------------------------------------------------------------------------------------------------------')
-# QUESTION 2: CHECK IF A LSIT CONTAINS PALINDROME OF ELEMENTS OR NOT
+# QUESTION 2: CHECK IF A LIST CONTAINS PALINDROME OF ELEMENTS OR NOT
 list = []
 a = input("Enter the 1st element:")
-b = input("Enter the 1st element:")
-c = input("Enter the 1st element:")
+b = input("Enter the 2nd element:")
+c = input("Enter the 3rd element:")
 
 list.append(a)
 list.append(b)

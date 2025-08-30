@@ -3,8 +3,8 @@
 
 #*************** FUNCTIONS IN PYTHON *****************#
 # Function is a block of statement that perform a specific task.
-# If we create a finction we can use it n number of times to perform the same task.
-# A function is created by:   def functio_name():
+# If we create a function we can use it n number of times to perform the same task.
+# A function is created by:   def function_name():
 # Example: 
 
 a = 5 
@@ -13,7 +13,7 @@ b = 10
 sum = a + b
 print(sum)          # Result: 15
 
-# The can be required to write for a long code which makes it typicall and time consumming, So we use Function instead.
+# This can be required to write for a long code which makes it typical and time consuming, So we use Function instead.
 
 def calc_sum(a,b):
     sum = a + b
@@ -75,7 +75,7 @@ print()
 
 #*************** DEFAULT PARAMETERS *****************#
 
-# Default parameters are the valeus that are given to the function that are used whrn NO arguments are passed while wrotting a code.
+# Default parameters are the values that are given to the function that are used when NO arguments are passed while writing a code.
 # Example: 
 
 # calc_sum()    ---> this will give an error whenever we try to pass null ARGUMENT, because function consist some parameters but argument are not given to fulfill it.
@@ -94,9 +94,9 @@ def cal_pr( a, b=2 ):
     print(a * b)
     return a * b
 
-cal_pr(2)     # Result: 4 , bacause: a = 2 & b = 2
+cal_pr(2)     # Result: 4 , because: a = 2 & b = 2
 
-# # Example 3:
+# Example 3:
 # def cal_pr( a = 2, b ):
 #     print(a * b)
 #     return a * b                  --> Error on line 100, because "a" can stay undefined but not "b", according to rules.
@@ -233,7 +233,7 @@ list = [1,2,3,4,5]
 
 def pr_el(list,idx=0):
     if(idx == len(list)):
-        return
+        return 0
     print(list[idx])
     pr_el(list, idx+1)
 
