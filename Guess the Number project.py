@@ -8,7 +8,7 @@
 
 import random
 
-target = random.randint(1, 10)
+target = random.randint(1, 100)
 
 while True:
     userInput = input("Guess the Number or Quit the game by pressing 'Q': ")
