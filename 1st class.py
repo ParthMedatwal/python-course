@@ -86,6 +86,7 @@ print(type(name))     # We will get output as: str
 print(type(age))      # We will get output as: int
 print(type(salary))   # We will get output as: float
 print(type(ans))      # We will get output as: bool
+print(type(a))       # We will get output as: tuple
 
 
 print('------------------------------------------------------------------------------------------------------')
